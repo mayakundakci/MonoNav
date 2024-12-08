@@ -1,4 +1,4 @@
-# Maya Kundakci Project Documentation
+# Maya Kundakci 16362 Project Documentation
 
 ## Project Description
 Implemented Nathaniel Simon and Anirudha Majumdar's MonoNav monocular navigation stack.
@@ -38,6 +38,10 @@ Implemented Nathaniel Simon and Anirudha Majumdar's MonoNav monocular navigation
 
 1. Ran demo data to ensure MonoNav was setup correctly
 2. Calibrated camera using MonoNav calibrate.py (OpenCV)
-3. Collected depth data streaming from Crazyflie and mapped environments (data/Room and data/Hallway)
+3. Collected depth data streaming from Crazyflie and mapped environments (available at data/Room and data/Hallway)
+
+**Limitations**
+
+We were not able to take off our Crazyflie due to a problem with the center of mass on our drone. Therefore, we could not activate the mononav mapping & path planning flight mode. The next step for our project is to 3D print a mound for the camera and execute mononav. 
 
 
