@@ -1,8 +1,6 @@
 # Project files
 # Ignore everything in the /data/ folder
-/data/*
-# Except the data folder itself
-!/data/
+/data
 # And the demo_hallway folder and its contents
 !/data/demo_hallway/
 /data/demo_hallway/*
